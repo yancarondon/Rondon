@@ -1,8 +1,97 @@
 <html>
-    <head><title>Rondon Construction & Renovations</title></head>
+    <head>
+        <title>Rondon Construction & Renovations</title>
+    </head>
+
     <body>
-        <h1><centre>RONDON CONSTRUCTION & RENOVATIONS</centre></h1>
-        <centre><a href="website.html">HOME</a><a href="services.html">SERVICES</a><a href="contactUs.html">CONTACT US</a></centre>
+        <style>
+            body {margin: 10px; background-color: white;}
+            header {margin:20px; background-color: white;}
+            nav {margin: 0px; background-color: black; color:white;}
+            footer {margin: 0px; background-color: black; color:white;}
+            h3 {margin: 0px; background-color: black; color:white;}
+            p {margin:60px;}
+           
+        </style>
+
+        <header>
+            <br>
+            <img src="Asset1.png" height="120" width= auto>
+        </header>
+        <br>
+        <br>
+        <nav align="center">
+            <a href="website.html">HOME</a> 
+            <a href="services.html">SERVICES</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="reviews.html">CLIENT REVIEWS</a>
+            <a href="contactUs.html">CONTACT US</a>
+        </nav>
         
+        <main>
+        <br>    
+        <p align="center"> 
+        We provide home renovation services with guaranteed high-quality jobs, cleanliness, and competitive prices.<!--how do I make this a dif colour?-->
+        <br> 
+        <br>
+        <b>Rondon Construction & Renovation</b> provides services in the entire <b>GTA</b>. Our team is ready to service in <b>residental</b> and <b>commercial</b> properties. 
+        <br>
+        The first step to bringing your dream project to guaranteed satisfactory results starts with planning. We will visit your property, inspect it and discuss your plans, visions, and needs. Our priority is to give you results that meet your expectations within safety and quality standards. 
+        <br>
+        After gathering all information, measurements and details of your project, we will work on a quote and deliver it within 48 hours. Quotations are made based on your needs and requests for types of materials and designs. Your approval of the quote is followed by a service contract we send will you outlining the scope of the work, cost, and timeframe.
+        <br>
+        Upon commencement of the work, you will witness our organization and cleanliness to carry out the work taking care of your property. We are a certified and insured business, therefore, your property is safe in our hands. 
+        <br>
+        <br>
+        Throughout the project, you have full access to our team to ask questions and make any enquiries. Our priority is to bring you satisfaction. Once the job is completed, we hope to hear from you again in the future for more jobs together.
+        </p>
+        <br>
+        <br>
+        <div>
+        <h3>Request a quote with us today!</h3> 
+        <br>
+        <label for="email">Please enter your email address:</label>
+        <input type="text" id="email" name="email" tabindex="1"></input>
+        <br>
+        <br>
+        <label for="telephone">Phone number:</label>
+        <input type="tel" name="telephone" id="telephone" maxlength="10" tabindex="2"></input>
+        <br>
+        <br>
+        <label for="calendar1">Desired start date:</label>
+        <input type="date" name="myCalendar" id="calendar1" tabindex="2"></input>
+        <br>
+        <br>
+        <label for="job">Select the type of work:</label>
+        <input type="datalist" name="job" id="job" list="jobs" tabindex="3">
+        <datalist id="jobs"> <!--how to display only 1 line with name?-->
+            <option value="br" label="Basement Renovations"></option>
+            <option value="fdt" label="Framing, Drywall & Taping"></option>
+            <option value="fcp" label="Finish Carpentry & Painting"></option>
+            <option value="kbsr" label="Kitchen, Bathroom & Stairs Remodel"></option>
+            <option value="insulation" label="Insulation"></option>
+            <option value="plumbing" label="Plumbing"></option>
+            <option value="flooring" label="Tile & Flooring Installation"></option>
+        </datalist>
+        <br>
+        <br>
+        Please describe the work you would like to get a quote on:
+        <br>
+        <textarea name= "comments" id= "commentdId " tabindex="4" accessKey="M"></textarea> <!-- the accessKey is so the user can go to comments just by tapping M-- for accessibility -->
+        <br>
+        <br>
+        <input type="submit" name="myButton" id="myButton" value="Submit" tabindex="5"></input>
+        <input type="reset" name="myResetButton" id="myResetButton" value="Reset" tabindex="6"></input> 
+        <br>
+        <br>
+        </div>
+        </main>
+
+        <footer align="center">
+            <img src="Logo-01.jpg" height="45" width= auto align="center"><br> <!-- how to make hyperlinks not blue?-->
+            <a href=“mailto:rondonrenovations@gmail.com”>rondonrenovations@gmail.com</a><br>
+            (647) 866-6407<br>
+            <a href="https://www.instagram.com/rondonrenovations/">Instagram</a> <!-- icon -->        
+        </footer>
     </body>
 </html>
