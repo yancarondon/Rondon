@@ -5,35 +5,36 @@
 
     <body>
         <style>
-            body {margin: 10px; background-color: white;}
+            body {margin: 10px; background-color: white; font-family: Arial;}
             header {margin:20px; background-color: white;}
-            nav {margin: 0px; background-color: black; color:white;}
-            footer {margin: 0px; background-color: black; color:white;}
-            h3 {margin: 0px; background-color: black; color:white;}
+            nav {margin: 0px; background-color: white;}
+            footer {margin: 0px; color:black;}
+            h3 {margin: 0px;  color:black;}
             p {margin:60px;}
-           
         </style>
-
         <header>
             <br>
-            <img src="Asset1.png" height="120" width= auto>
+            <img src="images/Asset1.png" height="120" width= auto>
         </header>
         <br>
         <br>
-        <nav align="center">
+        <div style="background-color: black; height:1px" >  </div>
+        <nav align="center" style="color:white">
             <a href="website.html">HOME</a> 
             <a href="services.html">SERVICES</a>
             <a href="gallery.html">GALLERY</a>
             <a href="reviews.html">CLIENT REVIEWS</a>
             <a href="contactUs.html">CONTACT US</a>
         </nav>
+        <div style="background-color: black; height:1px" >  </div>
         
         <main>
         <br>    
-        <p align="center"> 
-        We provide home renovation services with guaranteed high-quality jobs, cleanliness, and competitive prices.<!--how do I make this a dif colour?-->
-        <br> 
-        <br>
+        <p align="center" style="color:rgb(63, 64, 64)"> 
+        <b>WE PROVIDE HOME RENOVATION SERVICES WITH GUARANTEED HIGH-QUALITY JOBS, CLEANLINESS, AND COMPETITIVE PRICES.
+        </b></p>
+      
+        <p align="center">
         <b>Rondon Construction & Renovation</b> provides services in the entire <b>GTA</b>. Our team is ready to service in <b>residental</b> and <b>commercial</b> properties. 
         <br>
         The first step to bringing your dream project to guaranteed satisfactory results starts with planning. We will visit your property, inspect it and discuss your plans, visions, and needs. Our priority is to give you results that meet your expectations within safety and quality standards. 
@@ -48,36 +49,38 @@
         <br>
         <br>
         <div>
+        <div style="background-color: black; height:1px">  </div>
         <h3>Request a quote with us today!</h3> 
+        <div style="background-color: black; height:1px">  </div>
         <br>
         <label for="email">Please enter your email address:</label>
         <input type="text" id="email" name="email" tabindex="1"></input>
         <br>
         <br>
-        <label for="telephone">Phone number:</label>
+        <label for="telephone">Please enter your phone number:</label>
         <input type="tel" name="telephone" id="telephone" maxlength="10" tabindex="2"></input>
-        <br>
-        <br>
-        <label for="calendar1">Desired start date:</label>
-        <input type="date" name="myCalendar" id="calendar1" tabindex="2"></input>
         <br>
         <br>
         <label for="job">Select the type of work:</label>
         <input type="datalist" name="job" id="job" list="jobs" tabindex="3">
-        <datalist id="jobs"> <!--how to display only 1 line with name?-->
-            <option value="br" label="Basement Renovations"></option>
-            <option value="fdt" label="Framing, Drywall & Taping"></option>
-            <option value="fcp" label="Finish Carpentry & Painting"></option>
-            <option value="kbsr" label="Kitchen, Bathroom & Stairs Remodel"></option>
-            <option value="insulation" label="Insulation"></option>
-            <option value="plumbing" label="Plumbing"></option>
-            <option value="flooring" label="Tile & Flooring Installation"></option>
+        <datalist id="jobs">
+            <option value="Basement Renovation" ></option>
+            <option value="Framing, Drywall & Taping"></option>
+            <option value="Finish Carpentry & Painting"></option>
+            <option value="Kitchen, Bathroom & Stairs Remodel"></option>
+            <option value="Insulation"></option>
+            <option value="Plumbing"></option>
+            <option value="Tile & Flooring Installation"></option>
         </datalist>
+        <br>
+        <br>
+        <label for="calendar">Desired start date:</label>
+        <input type="date" name="calendar" id="calendar" tabindex="2"></input>
         <br>
         <br>
         Please describe the work you would like to get a quote on:
         <br>
-        <textarea name= "comments" id= "commentdId " tabindex="4" accessKey="M"></textarea> <!-- the accessKey is so the user can go to comments just by tapping M-- for accessibility -->
+        <textarea name= "comments" id= "comments " cols="50" rows="5" tabindex="4"></textarea> 
         <br>
         <br>
         <input type="submit" name="myButton" id="myButton" value="Submit" tabindex="5"></input>
@@ -86,12 +89,14 @@
         <br>
         </div>
         </main>
-
+        
         <footer align="center">
-            <img src="Logo-01.jpg" height="45" width= auto align="center"><br> <!-- how to make hyperlinks not blue?-->
+            <div style="background-color: black; height:1px" > </div>
+            <img src="images/Logo-02.jpg" height="45" width= auto align="center"><br> 
             <a href=“mailto:rondonrenovations@gmail.com”>rondonrenovations@gmail.com</a><br>
             (647) 866-6407<br>
-            <a href="https://www.instagram.com/rondonrenovations/">Instagram</a> <!-- icon -->        
+            <a href="https://www.instagram.com/rondonrenovations/">Instagram</a>     
+            <div style="background-color: black; height:1px" > </div>    
         </footer>
     </body>
 </html>
