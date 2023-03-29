@@ -1,0 +1,42 @@
+body {
+    margin: 10px;
+    background-color: white;
+    font-family: Arial;
+}
+
+header {
+    margin: 20px;
+    background-color: white;
+}
+
+nav {
+    margin: 0px;
+    background-color: black;
+    
+}
+
+footer {
+    margin: 0px;
+    color: black;
+}
+
+h3 {
+    margin: 0px;
+    color: black;
+}
+
+p {
+    margin: 60px;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
