@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: Arial;
+    
+}
+
+header {
+    margin: 20px;
+    background-color: white;
+}
+
+#sideBarMain {
+    margin: 0;
+    padding: 0px 20px;
+    float: left;
+    width: 500px;
+}
+
+#sideBarMain~p {
+    text-shadow:1px 0px;
+}
+
+#sideBarMain a:link {
+    color: black;   
+}
+
+#emailUs {
+    width: 600px;
+    height: 150px 
+}
+
+aside {
+    margin: 50px 50px 50px;
+    width: 650px;
+    height: 200px;
+    float: right;
+    text-shadow:1px 0px;
+}
+
+
+nav {
+    margin: 0px;
+    background-color: black;
+    
+}
+
+footer {
+    color: white;
+    background-color: black;
+    clear:both;
+}
+
+h3 {
+    color: white;
+    background-color: black;
+    
+}
+
+p {
+    margin: 60px;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#submission {
+    color: turquoise;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+table {
+    background-color: darkgray;
+    
+}
+
+.center {
+    text-align: center;
+    color:rgb(100, 100, 100);
+    text-shadow:1px 1px;
+}
