@@ -2,6 +2,11 @@ body {
     margin: 0px;
     background-color: white;
     font-family: Arial;
+    background-image: url(images/Asset6.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-attachment: fixed;
     
 }
 
@@ -38,6 +43,12 @@ aside {
     text-shadow:1px 0px;
 }
 
+#reviewImages{
+    margin: 0;
+    padding: 0px 20px;
+    float: left;
+    width: 500px;
+}
 
 nav {
     margin: 0px;
@@ -54,7 +65,7 @@ footer {
 h3 {
     color: white;
     background-color: black;
-    
+    text-indent: 40px;
 }
 
 p {
@@ -74,9 +85,11 @@ a:visited {
 }
 
 #submission {
-    color: turquoise;
+    background-color: rgb(153, 244, 198);
     font-size: 100%;
-    font-weight: bold;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 table {
@@ -88,4 +101,43 @@ table {
     text-align: center;
     color:rgb(100, 100, 100);
     text-shadow:1px 1px;
+    
 }
+
+ul {
+    margin-left:70px;
+    margin-right:70px;
+}
+
+#demo1 {
+    color:rgb(82, 82, 82);
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+#demo2 {
+    color:rgb(82, 82, 82);
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+#demo3 {
+    color:rgb(82, 82, 82);
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+#submitQuote {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#submitButton {
+    color: white;
+    background-color: black;
+}
+
+span {
+    color: red;
+}
+

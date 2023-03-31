@@ -1,39 +1,35 @@
-var $ = function (id){
+var $ = function (id) {
     return document.getElementById(id);
 }
 
-var submitEmail = function (){
-    var email = document.getElementById("email").value;
-    var telephone = document.getElementById("telephone").value;
-    var commentId = document.getElementById("commentId").value;
-    var isValid = true;
+function validate() {
 
-    
-    if (email == ""){
-        $("email_error").firstChild.nodeValue = "Please fill out this field."
-        isValid = false;
-    }else {
-        $("email_error").firstChild.nodeValue = "";
+    if ($("email").value == "") {
+        $("email_error").innerHTML = "Please fill out this field.";
+
+    } else {
+        $("email_error").innerHTML = "";
     }
 
-    if (telephone == ""){
-        $("telephone_error").firstChild.nodeValue = "Please fill out this field."
-        isValid = false;
-    }else {
-        $("telephone_error").firstChild.nodeValue = "";
+    if ($("telephone").value == "") {
+        $("telephone_error").innerHTML = "Please fill out this field.";
+
+    } else {
+        $("telephone_error").innerHTML = "";
     }
 
-    if (commentId == ""){
-        $("commentId_error").firstChild.nodeValue = "Please fill out this field."
-        isValid = false;
-    }else {
-        $("commentId_error").firstChild.nodeValue = "";
+    if ($("comments").value == "") {
+        $("comments_error").innerHTML = "Please fill out this field.";
+
+    } else {
+        $("comments_error").innerHTML = "";
     }
 
-    if (isValid) {
-        document.getElementById("submission").innerHTML = "Your quote has been successfully submited. Our team will contact you within 1 business day."
-    $("submitQuote").onclick = submitEmail;
+    if ($("email").value != "" && $("telephone").value != "" && $("comments").value != "") {
+
+        $("submission").innerHTML = "Your quote has been successfully submited. Our team will contact you within 1 business day.";
     }
-     
+
+
 }
 

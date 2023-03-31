@@ -18,49 +18,24 @@
             <a href="contactUs.html">CONTACT US</a>
         </nav>
         
-        
         <main>
-           <table border="1">
-                <tr>
-                    <th>SERVICE</th>
-                    <th>LOCATION</th>
-                    <th>CLIENT NAME</th>
-                    <th>CLIENT REVIEW</th>
-                </tr>
-                <tr>
-                    <td>Basement Renovation</td>
-                    <td>Oakville</td>
-                    <td></td>
-                    <td>Great service. Finished on time and with no additional costs that were discovered during the renovation. Friendly team!</td>
-                </tr>
-                <tr>
-                    <td>Garage Drywall Repair/Painting</td>
-                    <td>Mississauga</td>
-                    <td>Naasson</td>
-                    <td>Wagner and his crew were great. Always on time and took care of everything we requested. Would highly recommend for any home project.</td>
-                </tr>
-                <tr>
-                    <td>Winter Home Renovation</td>
-                    <td>Brampton</td>
-                    <td></td>
-                    <td>Rondon Construction is reliable, professional, and meticulous with their work and I highly recommend them to anyone looking out for home improvement.</td>
-                </tr>
-                <tr>
-                    <td>Bathroom Renos And Composite Deck</td>
-                    <td>Mississauga</td>
-                    <td>Vetro</td>
-                    <td>Rondon Construction was top notch when it came to our bathroom renos and the building of our composite deck. Wagner and his crew were very professional. His crew was always on time and the work was finished in a timely manner. I would highly recommend Rondon Construction to anyone.</td>
-                </tr>
-                <tr>
-                    <td>Complete Renovation</td>
-                    <td>Mississauga</td>
-                    <td></td>
-                    <td>Wagner and his highly train staff perform an amazing job, on time and on budget. I would recommend their service to anyone who needs renovation or new construction work at a reasonable price.</td>
-                </tr>
-           </table>
-
-           <div align="center"><a href="https://homestars.com/companies/2969651-rondon-construction-renovations">Read more reviews here.</a></div><br><br><br><br>
-        </main>
+            <center>
+            <p class="center"> Click on the service pictures to read our client reviews!</p>
+            <img src="images/JPEG_20220628_143734_full_medium.jpg" height=400px width=300px onclick="myFunction()">
+            <p id="demo1"></p>
+            <img src="images/JPEG_20220818_174808_full_medium.jpg" height=400px width=300px onclick="myFunction()">
+            <p id="demo2"></p>
+            <img src="images/JPEG_20230204_192352_full_medium.jpg" height=400px width=300px onclick="myFunction()">
+            <p id="demo3"></p>
+            <script>
+            function myFunction(){
+                document.getElementById("demo1").innerHTML = "Basement Renovation <br> Oakville <br> Mario Santos <br> Great service. Finished on time and with no additional costs that were discovered during the renovation. Friendly team!"
+                document.getElementById("demo2").innerHTML = "Bathroom Renovation <br> Mississauga <br> Emily Mayer <br> Rondon Construction was top notch when it came to our bathroom renos and the building of our composite deck. Wagner and his crew were very professional. His crew was always on time and the work was finished in a timely manner. I would highly recommend Rondon Construction to anyone."
+                document.getElementById("demo3").innerHTML = "Winter Home Renovation <br> Toronto <br> Ana Brown <br> Wagner and his highly train staff perform an amazing job, on time and on budget. I would recommend their service to anyone who needs renovation or new construction work at a reasonable price.";
+            }
+            </script>
+            </center>
+        </main>  
 
         <footer align="center">
             <div style="background-color: black; height:1px" ></div>
