@@ -1,49 +1,76 @@
 <html>
-    <head>
-        <title>Rondon Construction & Renovations</title>
-    </head>
-    <link rel="stylesheet" href="style.css">
-    <body>
-        <header>
-            <br>
-            <img src="images/Asset1.png" height="120" width= auto>
-        </header><br><br>
 
-        
-        <nav align="center">
-            <a href="home.html">HOME</a> 
-            <a href="services.html">SERVICES</a>
-            <a href="gallery.html">GALLERY</a>
-            <a href="reviews.html">CLIENT REVIEWS</a>
-            <a href="contactUs.html">CONTACT US</a>
-        </nav>
-        
-        <main>
-            <center>
-            <p class="center"> Click on the service pictures to read our client reviews!</p>
-            <img src="images/JPEG_20220628_143734_full_medium.jpg" height=400px width=300px onclick="myFunction()">
-            <p id="demo1"></p>
-            <img src="images/JPEG_20220818_174808_full_medium.jpg" height=400px width=300px onclick="myFunction()">
-            <p id="demo2"></p>
-            <img src="images/JPEG_20230204_192352_full_medium.jpg" height=400px width=300px onclick="myFunction()">
-            <p id="demo3"></p>
+<head>
+    <title>Rondon Construction & Renovations</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+        <br>
+        <img src="images/Asset1.png" height="120" width=auto>
+    </header><br><br>
+
+
+    <nav align="center">
+        <a href="home.html" id="box">HOME</a>
+        <a href="services.html" id="box">SERVICES</a>
+        <a href="gallery.html" id="box">GALLERY</a>
+        <a href="reviews.html" id="box">CLIENT REVIEWS</a>
+        <a href="contactUs.html" id="box">CONTACT US</a>
+    </nav>
+
+    <main>
+        <center>
+            <p style="font-weight: bold;"> CLICK ON THE SERVICE PICTURES TO READ OUR CLIENT REVIEWS</p>
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/JPEG_20220628_143734_full_medium.jpg" height=400px width=300px
+                            onclick="myFunction()">
+                    </td>
+                    <td>
+                        <p id="demo1"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="demo2"></p>
+                    </td>
+                    <td>
+                        <img src="images/JPEG_20220818_174808_full_medium.jpg" height=400px width=300px
+                            onclick="myFunction()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/JPEG_20230204_192352_full_medium.jpg" height=400px width=300px
+                            onclick="myFunction()">
+                    </td>
+                    <td>
+                        <p id="demo3"></p>
+                    </td>
+                </tr>
+            </table>
             <script>
-            function myFunction(){
-                document.getElementById("demo1").innerHTML = "Basement Renovation <br> Oakville <br> Mario Santos <br> Great service. Finished on time and with no additional costs that were discovered during the renovation. Friendly team!"
-                document.getElementById("demo2").innerHTML = "Bathroom Renovation <br> Mississauga <br> Emily Mayer <br> Rondon Construction was top notch when it came to our bathroom renos and the building of our composite deck. Wagner and his crew were very professional. His crew was always on time and the work was finished in a timely manner. I would highly recommend Rondon Construction to anyone."
-                document.getElementById("demo3").innerHTML = "Winter Home Renovation <br> Toronto <br> Ana Brown <br> Wagner and his highly train staff perform an amazing job, on time and on budget. I would recommend their service to anyone who needs renovation or new construction work at a reasonable price.";
-            }
-            </script>
-            </center>
-        </main>  
+                function myFunction() {
+                    document.getElementById("demo1").innerHTML = "Basement Renovation <br> Oakville <br> Mario Santos <br><br> \"Great service. Finished on time and with no additional costs that were discovered during the renovation. Friendly team!\""
+                    document.getElementById("demo2").innerHTML = "Bathroom Renovation <br> Mississauga <br> Emily Mayer <br><br> \"Rondon Construction was top notch when it came to our bathroom renos and the building of our composite deck. Wagner and his crew were very professional. His crew was always on time and the work was finished in a timely manner. I would highly recommend Rondon Construction to anyone.\""
+                    document.getElementById("demo3").innerHTML = "Winter Home Renovation <br> Toronto <br> Ana Brown <br><br> \"Wagner and his highly train staff perform an amazing job, on time and on budget. I would recommend their service to anyone who needs renovation or new construction work at a reasonable price.\"";
+                }
 
-        <footer align="center">
-            <div style="background-color: black; height:1px" ></div>
-            <img src="images/Logo-01.jpg" height="45" width= auto align="center"><br> 
-            <a href=“mailto:rondonrenovations@gmail.com”>rondonrenovations@gmail.com</a><br>
-            (647) 866-6407<br>
-            <a href="https://www.instagram.com/rondonrenovations/">Instagram</a>    
-            <div style="background-color: black; height:1px" ></div>    
-        </footer>
-    </body>
+            </script>
+        </center>
+    </main>
+
+    <footer align="center">
+        <div style="background-color: black; height:1px"></div>
+        <img src="images/Logo-01.jpg" height="45" width=auto ><br>
+        <a href=“mailto:rondonrenovations@gmail.com”>rondonrenovations@gmail.com</a><br>
+        (647) 866-6407<br>
+        <a href="https://www.instagram.com/rondonrenovations/"><img src="images/igicon.png" height="40" width=auto ></a>
+        <div style="background-color: black; height:1px"></div>
+    </footer>
+</body>
+
 </html>

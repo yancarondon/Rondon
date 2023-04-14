@@ -13,11 +13,11 @@
     </header><br><br>
 
     <nav align="center">
-        <a href="home.html">HOME</a>
-        <a href="services.html">SERVICES</a>
-        <a href="gallery.html">GALLERY</a>
-        <a href="reviews.html">CLIENT REVIEWS</a>
-        <a href="contactUs.html">CONTACT US</a>
+        <a href="home.html" id="box">HOME</a>
+        <a href="services.html" id="box">SERVICES</a>
+        <a href="gallery.html" id="box">GALLERY</a>
+        <a href="reviews.html" id="box">CLIENT REVIEWS</a>
+        <a href="contactUs.html" id="box">CONTACT US</a>
     </nav>
 
     <main>
@@ -54,51 +54,50 @@
                 future for more jobs together.
             </p><br><br>
         </div>
-        <div>
-            <h3> Request a quote with us today:</h3>
 
-            <form id="submitQuote">
+        <form id="submitQuote">
+            <h3>Request a quote with us today:</h3>
 
-                <label for="email">Please enter your email address:</label>
-                <input type="text" id="email" name="email" tabindex="1"></input>
-                <span id="email_error"> </span><br><br>
+            <label for="email">Please enter your email address:</label>
+            <input type="text" id="email" name="email" tabindex="1"></input>
+            <span id="email_error"> </span><br><br>
 
-                <label for="telephone">Please enter your phone number:</label>
-                <input type="tel" name="telephone" id="telephone" maxlength="10" tabindex="2"></input>
-                <span id="telephone_error"> </span><br><br>
+            <label for="telephone">Please enter your phone number:</label>
+            <input type="tel" name="telephone" id="telephone" maxlength="10" tabindex="2"></input>
+            <span id="telephone_error"> </span><br><br>
 
-                <label for="job">Select the type of work:</label>
-                <input type="datalist" name="job" id="job" list="jobs" tabindex="3">
-                <datalist id="jobs">
-                    <option value="Basement Renovation"></option>
-                    <option value="Framing, Drywall & Taping"></option>
-                    <option value="Finish Carpentry & Painting"></option>
-                    <option value="Kitchen, Bathroom & Stairs Remodel"></option>
-                    <option value="Insulation"></option>
-                    <option value="Plumbing"></option>
-                    <option value="Tile & Flooring Installation"></option>
-                </datalist><br><br>
+            <label for="job">Select the type of work:</label>
+            <input type="datalist" name="job" id="job" list="jobs" tabindex="3">
+            <datalist id="jobs">
+                <option value="Basement Renovation"></option>
+                <option value="Framing, Drywall & Taping"></option>
+                <option value="Finish Carpentry & Painting"></option>
+                <option value="Kitchen, Bathroom & Stairs Remodel"></option>
+                <option value="Insulation"></option>
+                <option value="Plumbing"></option>
+                <option value="Tile & Flooring Installation"></option>
+            </datalist><br><br>
 
-                <label for="calendar">Desired start date:</label>
-                <input type="date" name="calendar" id="calendar" tabindex="4"></input><br><br>
+            <label for="calendar">Desired start date:</label>
+            <input type="date" name="calendar" id="calendar" tabindex="4"></input><br><br>
 
-                Please describe the work you would like to get a quote on:<br>
-                <textarea name="comments" id="comments" cols="50" rows="5" tabindex="5"></textarea>
-                <span id="comments_error"> </span><br><br>
+            Please describe the work you would like to get a quote on:<br>
+            <textarea name="comments" id="comments" cols="50" rows="5" tabindex="5"></textarea>
+            <span id="comments_error"> </span><br><br>
 
-                <button type="button" id="submitButton" onclick="validate()" tabindex="6">Submit Quote Request</button>
-                <p id="submission"></p>
+            <button type="button" id="submitButton" onclick="validate()" tabindex="6">Submit Quote Request</button>
+            <p id="submission"></p>
 
-            </form>
-        </div>
+        </form>
+
     </main>
 
     <footer align="center">
         <div style="background-color: black; height:1px"></div>
-        <img src="images/Logo-01.jpg" height="45" width=auto align="center"><br>
+        <img src="images/Logo-01.jpg" height="45" width=auto><br>
         <a href=“mailto:rondonrenovations@gmail.com”>rondonrenovations@gmail.com</a><br>
         (647) 866-6407<br>
-        <a href="https://www.instagram.com/rondonrenovations/">Instagram</a>
+        <a href="https://www.instagram.com/rondonrenovations/"><img src="images/igicon.png" height="40" width=auto></a>
         <div style="background-color: black; height:1px"></div>
     </footer>
 </body>

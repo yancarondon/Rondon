@@ -1,18 +1,19 @@
 body {
     margin: 0px;
-    background-color: white;
+    background-color: #F6F6F6;
     font-family: Arial;
     background-image: url(images/Asset6.png);
     background-size: 30%;
     background-repeat: no-repeat;
-    background-position: center;    
+    background-position: center;
     background-attachment: fixed;
-    
+
 }
 
 header {
     margin: 20px;
-    background-color: white;
+    background-color: #F6F6F6, .1;
+
 }
 
 #sideBarMain {
@@ -23,16 +24,16 @@ header {
 }
 
 #sideBarMain~p {
-    text-shadow:1px 0px;
+    text-shadow: 1px 0px;
 }
 
 #sideBarMain a:link {
-    color: black;   
+    color: black;
 }
 
 #emailUs {
     width: 600px;
-    height: 150px 
+    height: 150px
 }
 
 aside {
@@ -40,91 +41,88 @@ aside {
     width: 650px;
     height: 200px;
     float: right;
-    text-shadow:1px 0px;
+    text-shadow: 1px 0px;
 }
 
-#reviewImages{
+#reviewImages {
     margin: 0;
     padding: 0px 20px;
     float: left;
     width: 500px;
 }
 
-nav {
-    margin: 0px;
-    background-color: black;
-    
-}
-
 footer {
     color: white;
     background-color: black;
-    clear:both;
-}
-
-h3 {
-    color: white;
-    background-color: black;
-    text-indent: 40px;
+    clear: both;
 }
 
 p {
     margin: 60px;
 }
 
+nav {
+    margin: 0px;
+
+}
+
+#box {
+    background-color: black;
+    background: rgb(25, 25, 25);
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 a:link {
     color: white;
+    text-decoration: none;
+
 }
 
 a:hover {
     color: white;
+    text-decoration: none;
 }
 
 a:visited {
     color: white;
-}
-
-#submission {
-    background-color: rgb(153, 244, 198);
-    font-size: 100%;
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    text-decoration: none;
 }
 
 table {
     background-color: darkgray;
-    
+
 }
 
 .center {
     text-align: center;
-    color:rgb(100, 100, 100);
-    text-shadow:1px 1px;
-    
+    color: black;
+    background-color: rgba(0, 0, 0, 0.068);
+    background: rgba(25, 25, 25, 0.1);
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
 }
 
 ul {
-    margin-left:70px;
-    margin-right:70px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
-#demo1 {
-    color:rgb(82, 82, 82);
-    margin-left:150px;
-    margin-right: 150px;
-}
-
-#demo2 {
-    color:rgb(82, 82, 82);
-    margin-left:150px;
-    margin-right: 150px;
-}
-
-#demo3 {
-    color:rgb(82, 82, 82);
-    margin-left:150px;
-    margin-right: 150px;
+#submission {
+    background-color: rgb(17, 119, 68);
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 25px;
 }
 
 #submitQuote {
@@ -132,12 +130,64 @@ ul {
     margin-left: 40px;
     margin-right: 40px;
 }
+
 #submitButton {
     color: white;
     background-color: black;
+    background: rgb(25, 25, 25);
+    border-radius: 25px;
+    width: 170px;
+    margin: 2px;
+    padding: 5px;
+
+}
+
+table {
+    background-color: #f6f6f604;
+}
+
+table img {
+    border-radius: 35px;
+    padding: 5%;
+}
+
+table p {
+    color: white;
+    background: black;
+    border-radius: 15px;
+    width: 350px;
+    height: auto;
+    margin: 2px;
+    padding: 20px;
+    margin-right: 70px;
 }
 
 span {
     color: red;
 }
 
+div+form {
+    background-color: rgba(80, 80, 80, 0.1);
+    border-radius: 15px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    align-content: center;
+    padding-top: 1%;
+    padding-bottom: .5%;
+    
+}
+
+form h3 {
+    color: white;
+    background-color: black;
+    background: rgb(25, 25, 25);
+    border-radius: 25px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}

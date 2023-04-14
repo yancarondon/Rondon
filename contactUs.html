@@ -11,30 +11,40 @@
 
        
         <nav align="center">
-            <a href="home.html">HOME</a> 
-            <a href="services.html">SERVICES</a>
-            <a href="gallery.html">GALLERY</a>
-            <a href="reviews.html">CLIENT REVIEWS</a>
-            <a href="contactUs.html">CONTACT US</a>
+            <a href="home.html" id="box">HOME</a> 
+            <a href="services.html" id="box">SERVICES</a>
+            <a href="gallery.html" id="box">GALLERY</a>
+            <a href="reviews.html" id="box">CLIENT REVIEWS</a>
+            <a href="contactUs.html" id="box">CONTACT US</a>
         </nav>
        
         <aside>
         <form>
             <label for="email" >Send us an email here:</label><br><br>
             <input type="text" id="emailUs" name="emailUs">
-            <button type="button">Submit</button>
+            <button type="button" id="submitButton" onclick="sendEmail()">Send</button>
+            <p id="sendEmail" style="text-shadow: none; color: green; font-weight: bold;"> </p>
         </form>
         </aside>
 
         <main id="sideBarMain">
-            <p>Our team can be reached at:<br><br>
-            Email:
-            <a href=“mailto:rondonrenovations@gmail.com” color="#000000" >rondonrenovations@gmail.com</a><br><br>
-            Mobile:
-            (647) 866-6407
+            <p>Our team can be reached via:<br><br>
+            email:
+            <a href=“mailto:rondonrenovations@gmail.com” color="#000000" style="border-radius: 25px; background: black; color: white; padding: 2%; padding-left: 2%; padding-left: 2%;" >rondonrenovations@gmail.com</a><br><br>
+            mobile:
+            <a href=“tel:647-123-1111” color="#000000" style="border-radius: 25px; background: black; color: white; padding: 2%; padding-left: 2%; padding-left: 2%;" >(647) 866-6407</a><br><br>
             <br><br><br><br><br><br><br><br><br><br><br>
             </p>
         </main>
+
+        <script>
+            function sendEmail(){
+
+                document.getElementById("sendEmail").innerHTML = "Your email has been successfully sent. Our team will contact you within 1 business day.";
+    
+
+            }
+        </script>
 
         <footer>
             <center><img src="images/Logo-01.jpg" height="150" ></center><br> 
